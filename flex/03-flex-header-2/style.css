@@ -14,11 +14,13 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .left-items,
 .right-items {
   display: flex;
+  gap: 16px;
 }
 
 .profile-image {
@@ -27,6 +29,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -55,6 +58,8 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 /* Self Check
