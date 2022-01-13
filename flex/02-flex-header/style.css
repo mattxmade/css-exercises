@@ -1,6 +1,14 @@
+* {
+  outline: 1px dashed red;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -14,6 +22,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0;
+  margin: 0;  
+  display: flex;
+  gap: 16px;
 }
 
 a {
@@ -26,14 +38,14 @@ a {
 
 /* Self Check
 
-Everything is centered vertically inside the header.                [
+Everything is centered vertically inside the header.                [ CHECK ]
 
-There is 8px space between everything and the edge of the header.   [
+There is 8px space between everything and the edge of the header.   [ CHECK ]
 
-Items are arranged horizontally as seen in the outcome image.       [
+Items are arranged horizontally as seen in the outcome image.       [ CHECK ]
 
 There is 16px between each item on both sides of the header.        [
 
-flex is used to arrange everything.                                 [
+flex is used to arrange everything.                                 [ CHECK ]
 
 */
