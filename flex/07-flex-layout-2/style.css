@@ -45,6 +45,7 @@ h1 {
   flex-shrink: 0;
   width: 300px;
   background: royalblue;
+  padding: 16px;
 }
 
 .sidebar ul {
@@ -59,8 +60,23 @@ h1 {
   text-decoration: none;
 }
 
+/*
+Cards styling
+*/
+
+.cards {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  max-width: 300px;
+  padding: 12px;
+  font-weight: 500;
 }
