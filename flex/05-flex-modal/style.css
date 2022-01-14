@@ -102,4 +102,9 @@ The header is bold and a slightly larger text-size than the text.               
 
 The close button is vertically aligned with the header, and aligned in the top-right of the card.   [ CHECK ]
 
+Approach:
+Icon and the rest of items are divided into two columns.
+The second column then has a nested group .modal-col-2-row-1 that holds header and cross button.
+As the naming suggests, .modal-col-2-row-1 has its display set to flex direction row, with content spaced apart.
+
 */
